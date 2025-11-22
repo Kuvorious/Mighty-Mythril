@@ -1,5 +1,9 @@
-package net.Kuvorious.Mortality;
+package net.kuvorious.mighty_mythril;
 
+import net.kuvorious.mighty_mythril.block.ModBlocks;
+import net.kuvorious.mighty_mythril.item.ModCreativeModeTabs;
+import net.kuvorious.mighty_mythril.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -15,16 +19,16 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(Mortality.MODID)
-public class Mortality {
+@Mod(MightyMythril.MODID)
+public class MightyMythril {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "hemorrhage";
+    public static final String MODID = "mighty_mythril";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public Mortality(IEventBus modEventBus, ModContainer modContainer) {
+    public MightyMythril(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -32,6 +36,11 @@ public class Mortality {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -46,7 +55,21 @@ public class Mortality {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        event.accept(ModItems.FRIEND);
+        event.accept(ModItems.RAW_MYTHRIL);
+        event.accept(ModItems.MYTHRIL_INGOT);
+    }
 
+    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+
+    }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.MYTHRIL_ORE);
+            event.accept(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+            event.accept(ModBlocks.BLOCK_OF_RAW_MYTHRIL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,4 +1,4 @@
-package net.Kuvorious.Mortality;
+package net.kuvorious.mighty_mythril;
 
 import java.util.List;
 

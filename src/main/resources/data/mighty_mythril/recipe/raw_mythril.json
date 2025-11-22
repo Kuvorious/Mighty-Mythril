@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mighty_mythril:block_of_raw_mythril"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mighty_mythril:raw_mythril"
+  }
+}
