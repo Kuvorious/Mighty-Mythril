@@ -22,9 +22,21 @@ public class ModCreativeModeTabs {
                                     .displayItems((itemDisplayParameters, output) -> {
                                         output.accept(ModItems.RAW_MYTHRIL);
                                         output.accept(ModItems.MYTHRIL_INGOT);
+                                        output.accept(ModItems.MYTHRIL_SWORD);
+                                        output.accept(ModItems.MYTHRIL_PICKAXE);
+                                        output.accept(ModItems.MYTHRIL_AXE);
+                                        output.accept(ModItems.MYTHRIL_SHOVEL);
+                                        output.accept(ModItems.MYTHRIL_HOE);
+                                        output.accept(ModItems.MYTHGOLD_SWORD);
+                                        output.accept(ModItems.MYTHGOLD_PICKAXE);
+                                        output.accept(ModItems.MYTHGOLD_AXE);
+                                        output.accept(ModItems.MYTHGOLD_SHOVEL);
+                                        output.accept(ModItems.MYTHGOLD_HOE);
+                                        output.accept(ModItems.FRIEND);
                                         output.accept(ModBlocks.BLOCK_OF_RAW_MYTHRIL);
                                         output.accept(ModBlocks.MYTHRIL_ORE);
                                         output.accept(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+                                        output.accept(ModBlocks.BLOCK_OF_MYTHRIL);
 
              }).build());
 

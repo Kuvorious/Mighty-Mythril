@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "M": {
-      "item": "mighty_mythril:raw_mythril"
+      "item": "mighty_mythril:mythril_ingot"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "mighty_mythril:block_of_raw_mythril"
+    "id": "mighty_mythril:block_of_mythril"
   }
 }

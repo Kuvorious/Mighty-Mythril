@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "mighty_mythril:block_of_raw_mythril"
+      "item": "mighty_mythril:block_of_mythril"
     }
   ],
   "result": {
     "count": 9,
-    "id": "mighty_mythril:raw_mythril"
+    "id": "mighty_mythril:mythril_ingot"
   }
 }

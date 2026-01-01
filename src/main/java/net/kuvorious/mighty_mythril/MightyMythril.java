@@ -1,6 +1,7 @@
 package net.kuvorious.mighty_mythril;
 
 import net.kuvorious.mighty_mythril.block.ModBlocks;
+import net.kuvorious.mighty_mythril.datagen.DataGenerators;
 import net.kuvorious.mighty_mythril.item.ModCreativeModeTabs;
 import net.kuvorious.mighty_mythril.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -45,6 +46,8 @@ public class MightyMythril {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        modEventBus.addListener(DataGenerators::gatherData);
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -56,19 +59,22 @@ public class MightyMythril {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-        event.accept(ModItems.FRIEND);
         event.accept(ModItems.RAW_MYTHRIL);
         event.accept(ModItems.MYTHRIL_INGOT);
     }
 
     if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
+        event.accept(ModBlocks.MYTHRIL_ORE);
     }
 
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+    if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.MYTHRIL_ORE);
             event.accept(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
             event.accept(ModBlocks.BLOCK_OF_RAW_MYTHRIL);
+        }
+
+    if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        event.accept(ModItems.FRIEND);
         }
     }
 

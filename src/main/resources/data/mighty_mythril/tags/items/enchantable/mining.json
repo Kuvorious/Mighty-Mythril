@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mighty_mythril:mythril_pickaxe",
+    "mighty_mythril:mythril_pickaxe_test",
+    "mighty_mythril:mythril_sword",
+    "mighty_mythril:mythril_axe",
+    "mighty_mythril:mythril_shovel",
+    "mighty_mythril:mythril_hoe"
+  ]
+}

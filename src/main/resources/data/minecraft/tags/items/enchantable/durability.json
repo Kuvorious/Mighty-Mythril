@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mighty_mythril:mythril_pickaxe",
+    "mighty_mythril:mythril_pickaxe_test",
+    "#mighty_mythril:enchantable/mining"
+  ]
+}
