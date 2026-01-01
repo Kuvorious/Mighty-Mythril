@@ -2,7 +2,6 @@ package net.kuvorious.mighty_mythril.item;
 
 import net.kuvorious.mighty_mythril.MightyMythril;
 import net.kuvorious.mighty_mythril.item.custom.FriendHand;
-import net.kuvorious.mighty_mythril.item.custom.MythrilPickaxeItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.*;
@@ -54,9 +53,6 @@ public static final DeferredItem<Item> RAW_MYTHRIL = ITEMS.register("raw_mythril
     public static final DeferredItem<HoeItem> MYTHGOLD_HOE = ITEMS.register("mythgold_hoe",
             () -> new HoeItem(ModToolTiers.MYTHGOLD, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.MYTHGOLD, -2.0f, -0.5f))));
-
-    public static final DeferredItem<MythrilPickaxeItem> MYTHRIL_PICKAXE_TEST = ITEMS.register("mythril_pickaxe_test",
-            () -> new MythrilPickaxeItem(ModToolTiers.MYTHRIL, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
