@@ -24,19 +24,24 @@ public class ModItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(ItemTags.SWORDS)
-                .add(ModItems.MYTHRIL_SWORD.get());
+                .add(ModItems.MYTHRIL_SWORD.get())
+                .add(ModItems.MYTHGOLD_SWORD.get());
 
         tag(ItemTags.PICKAXES)
-                .add(ModItems.MYTHRIL_PICKAXE.get());
+                .add(ModItems.MYTHRIL_PICKAXE.get())
+                .add(ModItems.MYTHGOLD_PICKAXE.get());
 
         tag(ItemTags.AXES)
-                .add(ModItems.MYTHRIL_AXE.get());
+                .add(ModItems.MYTHRIL_AXE.get())
+                .add(ModItems.MYTHGOLD_AXE.get());
 
         tag(ItemTags.SHOVELS)
-                .add(ModItems.MYTHRIL_SHOVEL.get());
+                .add(ModItems.MYTHRIL_SHOVEL.get())
+                .add(ModItems.MYTHGOLD_SHOVEL.get());
 
         tag(ItemTags.HOES)
-                .add(ModItems.MYTHRIL_SHOVEL.get());
+                .add(ModItems.MYTHRIL_HOE.get())
+                .add(ModItems.MYTHGOLD_HOE.get());
 
         tag(Tags.Items.INGOTS)
                 .add(ModItems.MYTHRIL_INGOT.get());
