@@ -16,5 +16,9 @@
   "block.mighty_mythril.mythril_ore": "Mythril Ore",
   "block.mighty_mythril.deepslate_mythril_ore": "Deepslate Mythril Ore",
   "block.mighty_mythril.block_of_mythril": "Block of Mythril",
-  "creativetab.mighty_mythril.mythril_items": "Mighty Mythril"
+  "creativetab.mighty_mythril.mythril_items": "Mighty Mythril",
+  "item.mighty_mythril.mythril_helmet": "Mythril Helmet",
+  "item.mighty_mythril.mythril_chestplate": "Mythril Chestplate",
+  "item.mighty_mythril.mythril_leggings": "Mythril Leggings",
+  "item.mighty_mythril.mythril_boots": "Mythril Boots"
 }

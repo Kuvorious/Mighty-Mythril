@@ -49,5 +49,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(Tags.Items.RAW_MATERIALS)
                 .add(ModItems.RAW_MYTHRIL.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.MYTHRIL_HELMET.get())
+                .add(ModItems.MYTHRIL_CHESTPLATE.get())
+                .add(ModItems.MYTHRIL_LEGGINGS.get())
+                .add(ModItems.MYTHRIL_BOOTS.get());
+
     }
 }

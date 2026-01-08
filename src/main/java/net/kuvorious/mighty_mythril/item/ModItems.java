@@ -54,6 +54,19 @@ public static final DeferredItem<Item> RAW_MYTHRIL = ITEMS.register("raw_mythril
             () -> new HoeItem(ModToolTiers.MYTHGOLD, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.MYTHGOLD, -2.0f, -0.5f))));
 
+    public static final DeferredItem<ArmorItem> MYTHRIL_HELMET = ITEMS.register("mythril_helmet",
+            () -> new ArmorItem(ModArmorMaterials.MYTHRIL_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15))));
+    public static final DeferredItem<ArmorItem> MYTHRIL_CHESTPLATE = ITEMS.register("mythril_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.MYTHRIL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15))));
+    public static final DeferredItem<ArmorItem> MYTHRIL_LEGGINGS = ITEMS.register("mythril_leggings",
+            () -> new ArmorItem(ModArmorMaterials.MYTHRIL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15))));
+    public static final DeferredItem<ArmorItem> MYTHRIL_BOOTS = ITEMS.register("mythril_boots",
+            () -> new ArmorItem(ModArmorMaterials.MYTHRIL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15))));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

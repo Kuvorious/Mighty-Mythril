@@ -33,6 +33,10 @@ public class ModCreativeModeTabs {
                                         output.accept(ModItems.MYTHGOLD_SHOVEL);
                                         output.accept(ModItems.MYTHGOLD_HOE);
                                         output.accept(ModItems.FRIEND);
+                                        output.accept(ModItems.MYTHRIL_HELMET);
+                                        output.accept(ModItems.MYTHRIL_CHESTPLATE);
+                                        output.accept(ModItems.MYTHRIL_LEGGINGS);
+                                        output.accept(ModItems.MYTHRIL_BOOTS);
                                         output.accept(ModBlocks.BLOCK_OF_RAW_MYTHRIL);
                                         output.accept(ModBlocks.MYTHRIL_ORE);
                                         output.accept(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
