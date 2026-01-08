@@ -49,6 +49,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.MYTHRIL_CHESTPLATE);
         trimmedArmorItem(ModItems.MYTHRIL_LEGGINGS);
         trimmedArmorItem(ModItems.MYTHRIL_BOOTS);
+
+        trimmedArmorItem(ModItems.MYTHGOLD_HELMET);
+        trimmedArmorItem(ModItems.MYTHGOLD_CHESTPLATE);
+        trimmedArmorItem(ModItems.MYTHGOLD_LEGGINGS);
+        trimmedArmorItem(ModItems.MYTHGOLD_BOOTS);
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {

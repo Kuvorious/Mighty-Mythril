@@ -67,6 +67,19 @@ public static final DeferredItem<Item> RAW_MYTHRIL = ITEMS.register("raw_mythril
             () -> new ArmorItem(ModArmorMaterials.MYTHRIL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
 
+    public static final DeferredItem<ArmorItem> MYTHGOLD_HELMET = ITEMS.register("mythgold_helmet",
+            () -> new ArmorItem(ModArmorMaterials.MYTHGOLD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))));
+    public static final DeferredItem<ArmorItem> MYTHGOLD_CHESTPLATE = ITEMS.register("mythgold_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.MYTHGOLD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))));
+    public static final DeferredItem<ArmorItem> MYTHGOLD_LEGGINGS = ITEMS.register("mythgold_leggings",
+            () -> new ArmorItem(ModArmorMaterials.MYTHGOLD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))));
+    public static final DeferredItem<ArmorItem> MYTHGOLD_BOOTS = ITEMS.register("mythgold_boots",
+            () -> new ArmorItem(ModArmorMaterials.MYTHGOLD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

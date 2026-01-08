@@ -53,7 +53,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.MYTHRIL_HELMET.get())
                 .add(ModItems.MYTHRIL_CHESTPLATE.get())
                 .add(ModItems.MYTHRIL_LEGGINGS.get())
-                .add(ModItems.MYTHRIL_BOOTS.get());
+                .add(ModItems.MYTHRIL_BOOTS.get())
+                .add(ModItems.MYTHGOLD_HELMET.get())
+                .add(ModItems.MYTHGOLD_CHESTPLATE.get())
+                .add(ModItems.MYTHGOLD_LEGGINGS.get())
+                .add(ModItems.MYTHGOLD_BOOTS.get());
 
     }
 }
