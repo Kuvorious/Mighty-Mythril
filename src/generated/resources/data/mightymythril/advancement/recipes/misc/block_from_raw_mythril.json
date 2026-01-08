@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_mythril": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mighty_mythril:raw_mythril"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mightymythril:block_from_raw_mythril"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_mythril"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mightymythril:block_from_raw_mythril"
+    ]
+  }
+}

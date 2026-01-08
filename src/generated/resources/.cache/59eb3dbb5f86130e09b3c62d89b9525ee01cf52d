@@ -1,0 +1,5 @@
+// 1.21.1	2026-01-01T15:18:26.8319245	Loot Tables
+77babd0841a5b70f8ce15c66bcf746d8e969cc6b data/mighty_mythril/loot_table/blocks/block_of_mythril.json
+05eeea4e4f166159a18cb605e8f389e6088fbece data/mighty_mythril/loot_table/blocks/block_of_raw_mythril.json
+8198acdbf939cb4ed7cfeb6ebfcf07a92b118b83 data/mighty_mythril/loot_table/blocks/deepslate_mythril_ore.json
+d8cce46b65ca7948fd119db28dca76ab76475467 data/mighty_mythril/loot_table/blocks/mythril_ore.json
