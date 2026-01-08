@@ -25,7 +25,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 6);
                 attribute.put(ArmorItem.Type.HELMET, 2);
                 attribute.put(ArmorItem.Type.BODY, 5);
-            }), 16, 2f, 0.1f, () -> ModItems.MYTHRIL_INGOT.get());
+            }), 16, 0f, 0.0f, () -> ModItems.MYTHRIL_INGOT.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,
