@@ -2,8 +2,6 @@ package net.kuvorious.mighty_mythril.item;
 
 import net.kuvorious.mighty_mythril.MightyMythril;
 import net.kuvorious.mighty_mythril.item.custom.FriendHand;
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,6 +17,8 @@ public static final DeferredItem<Item> FRIEND = ITEMS.register("friend",
 public static final DeferredItem<Item> RAW_MYTHRIL = ITEMS.register("raw_mythril",
         () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MYTHRIL_INGOT = ITEMS.register("mythril_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MYTHGOLD_SMITHING_TEMPLATE = ITEMS.register("mythgold_smithing_template",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<SwordItem> MYTHRIL_SWORD = ITEMS.register("mythril_sword",

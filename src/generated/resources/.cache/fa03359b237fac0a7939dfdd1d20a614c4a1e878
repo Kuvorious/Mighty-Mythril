@@ -1,7 +1,11 @@
-// 1.21.1	2026-01-08T15:44:51.4480333	Tags for minecraft:item mod id mighty_mythril
+// 1.21.1	2026-01-08T16:44:11.6545411	Tags for minecraft:item mod id mighty_mythril
 2922e59e2526220b8a679383580401f2c3d49926 data/c/tags/item/ingots.json
 d1b7559ac35b284bc391f0520da0deeee74041f0 data/c/tags/item/raw_materials.json
 3f3391d1e68de2690c7ff59862ec4026dd284734 data/minecraft/tags/item/axes.json
+056ac75c0ec869442036383451ee85af72155908 data/minecraft/tags/item/enchantable/chest_armor.json
+d51cf44ce2e167638c73760fb75663166cf3c0ed data/minecraft/tags/item/enchantable/foot_armor.json
+4cd84a080c2a9d8c16d8700a1d8a587aa1124c7b data/minecraft/tags/item/enchantable/head_armor.json
+84bf80281504a571ea43a067306be83e4cca692c data/minecraft/tags/item/enchantable/leg_armor.json
 ee336db0cbb4bfdbebb122dfa3887f417a30981d data/minecraft/tags/item/hoes.json
 367b3af5b506adb61f2ae2a8d1b37528a952973d data/minecraft/tags/item/pickaxes.json
 2078d029b32e1f8878ac0d914fba095c10a3cc9e data/minecraft/tags/item/shovels.json

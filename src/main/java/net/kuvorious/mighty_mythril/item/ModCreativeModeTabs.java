@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                                     .displayItems((itemDisplayParameters, output) -> {
                                         output.accept(ModItems.RAW_MYTHRIL);
                                         output.accept(ModItems.MYTHRIL_INGOT);
+                                        output.accept(ModItems.MYTHGOLD_SMITHING_TEMPLATE);
                                         output.accept(ModItems.MYTHRIL_SWORD);
                                         output.accept(ModItems.MYTHRIL_PICKAXE);
                                         output.accept(ModItems.MYTHRIL_AXE);

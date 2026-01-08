@@ -59,5 +59,21 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.MYTHGOLD_LEGGINGS.get())
                 .add(ModItems.MYTHGOLD_BOOTS.get());
 
+        this.tag(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(ModItems.MYTHRIL_HELMET.get())
+                .add(ModItems.MYTHGOLD_HELMET.get());
+
+        this.tag(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(ModItems.MYTHRIL_CHESTPLATE.get())
+                .add(ModItems.MYTHGOLD_CHESTPLATE.get());
+
+        this.tag(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(ModItems.MYTHRIL_LEGGINGS.get())
+                .add(ModItems.MYTHGOLD_LEGGINGS.get());
+
+        this.tag(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(ModItems.MYTHRIL_BOOTS.get())
+                .add(ModItems.MYTHGOLD_BOOTS.get());
+
     }
 }

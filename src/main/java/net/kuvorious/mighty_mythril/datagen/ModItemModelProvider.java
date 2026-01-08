@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MYTHRIL_AXE.get());
         basicItem(ModItems.MYTHRIL_SHOVEL.get());
         basicItem(ModItems.MYTHRIL_HOE.get());
+        basicItem(ModItems.MYTHGOLD_SMITHING_TEMPLATE.get());
 
         trimmedArmorItem(ModItems.MYTHRIL_HELMET);
         trimmedArmorItem(ModItems.MYTHRIL_CHESTPLATE);

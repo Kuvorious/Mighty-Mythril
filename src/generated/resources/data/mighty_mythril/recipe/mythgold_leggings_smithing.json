@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "mighty_mythril:mythril_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "mighty_mythril:mythgold_leggings"
+  },
+  "template": {
+    "item": "mighty_mythril:mythgold_smithing_template"
+  }
+}

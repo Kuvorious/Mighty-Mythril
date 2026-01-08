@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "mighty_mythril:mythril_ingot"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mighty_mythril:mythril_helmet"
+  }
+}

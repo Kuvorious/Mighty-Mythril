@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mythril_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mighty_mythril:mythril_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mighty_mythril:mythgold_chestplate_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mythril_chestplate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mighty_mythril:mythgold_chestplate_smithing"
+    ]
+  }
+}

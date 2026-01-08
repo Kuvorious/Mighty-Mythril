@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "mighty_mythril:mythril_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "mighty_mythril:mythgold_chestplate"
+  },
+  "template": {
+    "item": "mighty_mythril:mythgold_smithing_template"
+  }
+}

@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-08T15:44:51.4439223	Item Models: mighty_mythril
+// 1.21.1	2026-01-08T17:32:50.6245965	Item Models: mighty_mythril
 ae3cba7043c51f045ef2d18d7ef8547360c31f28 assets/mighty_mythril/models/item/mythgold_boots.json
 35c2deeaa28b5aec9f6dcb0e92e39bcc94bfae6f assets/mighty_mythril/models/item/mythgold_boots_amethyst_trim.json
 781a05be4a0e56857979d9c175efe908ebe42d5d assets/mighty_mythril/models/item/mythgold_boots_copper_trim.json
@@ -43,6 +43,7 @@ b013181a752394698e4ffb63a824b61711547f54 assets/mighty_mythril/models/item/mythg
 3b087d9dd025ab7544e75cecacfc5f52cfca4a20 assets/mighty_mythril/models/item/mythgold_leggings_netherite_trim.json
 f030fad2c3146e1b30c3dabb36327c116aa85dc7 assets/mighty_mythril/models/item/mythgold_leggings_quartz_trim.json
 92e91741425763bda5d1ba26a392127bbce871a9 assets/mighty_mythril/models/item/mythgold_leggings_redstone_trim.json
+88e0978dc5301faff8698eb749aaeb2be18c56bc assets/mighty_mythril/models/item/mythgold_smithing_template.json
 084b8df7144e0ff12e688c41969d16c6fde7c4d3 assets/mighty_mythril/models/item/mythril_axe.json
 14fbef5d9b53499bf5aafbb057592e6ff5555627 assets/mighty_mythril/models/item/mythril_boots.json
 4925b3762772190df37e54b447f8eab5ffa1450f assets/mighty_mythril/models/item/mythril_boots_amethyst_trim.json
