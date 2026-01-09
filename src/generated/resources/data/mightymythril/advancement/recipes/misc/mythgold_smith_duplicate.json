@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mythgold_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mighty_mythril:mythgold_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mightymythril:mythgold_smith_duplicate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mythgold_smithing_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mightymythril:mythgold_smith_duplicate"
+    ]
+  }
+}

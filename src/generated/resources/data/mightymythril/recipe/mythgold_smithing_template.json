@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "M": {
+      "item": "mighty_mythril:mythril_ingot"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MGM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mighty_mythril:mythgold_smithing_template"
+  }
+}

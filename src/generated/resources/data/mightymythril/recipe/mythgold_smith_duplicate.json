@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "mighty_mythril:mythril_ingot"
+    },
+    "T": {
+      "item": "mighty_mythril:mythgold_smithing_template"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 2,
+    "id": "mighty_mythril:mythgold_smithing_template"
+  }
+}

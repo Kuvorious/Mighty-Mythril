@@ -1,0 +1,4 @@
+// 1.21.1	2026-01-08T20:04:46.4806478	Registries
+0dd0ffc9488865e9f0fc16d366f18c0ee6e98ee3 data/mighty_mythril/neoforge/biome_modifier/add_mythril_ore.json
+380b9a03180ce2510b88dd4a21c9c5905eb58bc3 data/mighty_mythril/worldgen/configured_feature/mythril_ore.json
+a28e395ea16f3e262fddf1cc35e40ef0911fb9fd data/mighty_mythril/worldgen/placed_feature/mythril_ore_placed.json
